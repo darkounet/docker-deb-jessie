@@ -5,7 +5,9 @@ FROM debian:jessie
 
 MAINTAINER Antoine GUEVARA <me@antoine-guevara.fr>
 
+ENV HOSTNAME wheezy.docker.lan
 ENV DEBIAN_FRONTEND noninteractive
+ENV SHELL /bin/bash
 
 RUN apt-get update
 
