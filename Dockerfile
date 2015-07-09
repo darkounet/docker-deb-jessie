@@ -5,7 +5,7 @@ FROM debian:jessie
 
 MAINTAINER Antoine GUEVARA <me@antoine-guevara.fr>
 
-ENV HOSTNAME wheezy.docker.lan
+ENV HOSTNAME jessie.docker.lan
 ENV DEBIAN_FRONTEND noninteractive
 ENV SHELL /bin/bash
 
